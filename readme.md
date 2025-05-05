@@ -1,4 +1,4 @@
-# Three.js Journey
+# Room website
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
