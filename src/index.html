@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bobkin</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+
+    <div class="sound-effect"></div>
+
+    <div class="overlay"></div>
+
+    <div class="start">
+        <h1 class="hello">HELLO</h1>
+        <p class="hello">I am glad to see you on my webpage</p>
+
+        <div class="controls"> 
+            <h1 class="hello">Controls</h1>
+            <div class="mouse">
+                <div class="control">
+                    <h3>Rotate</h3>
+                    <div>
+                        <img src="./icons/mouse-left.svg" />
+                    </div>
+                    
+                </div>
+                <div class="control">
+                    <h3>Move</h3>
+                    <div>
+                        <img src="./icons/mouse-right.svg" />
+                    </div>
+                </div>
+                <div class="control">
+                    <h3>Zoom</h3>
+                    <div>
+                        <img src="./icons/mouse-middle.svg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="go-block">
+            <div class="loading-bar">
+                <div class="progress"></div>
+                <div class="text">0%</div>
+            </div>
+    
+            <button id="start-button">GO</button>
+        </div>
+    </div>
+
+   
+
+    <div class="point point-0">
+        <div class="label">
+            <div class="laptop-icon"></div>
+        </div>
+        <div class="text">My laptop that I use for my works. I was skeptical about Apple devices but now i can't imagine my work without it 🍏 ❤️</div>
+    </div>
+
+    <div class="point point-1">
+        <div class="label">
+            <div class="book-icon"></div>
+        </div>
+        <div class="text">I work on improving my alghoritm skills 😰</div>
+    </div>
+
+    <div class="point point-2">
+        <div class="label">
+            <div class="book-icon"></div>
+        </div>
+        <div class="text">This is the book I'm reading to relax. Just light English grammar.</div>
+    </div>
+
+    <div class="point point-3">
+        <div class="label">
+            <div class="satisfie-icon"></div>
+        </div>
+        <div class="text">Of course he is me!</div>
+    </div>
+
+    <div class="point point-4">
+        <div class="label">
+            <div class="hot-chocolate-icon"></div>
+        </div>
+        <div class="text">Hot chocolate helps me not stress to much when something doesn't work 🫠 😭 🎯</div>
+    </div>
+
+    <div class="point point-5">
+        <div class="label">
+            <div class="leafe-icon"></div>
+        </div>
+        <div class="text">This palm is my peer. It's a nice plant! Live with me and gladden my eyes 🌴
+        </div>
+    </div>
+
+    <div class="point point-6">
+        <div class="label">
+            <div class="engineering-icon"></div>
+        </div>
+        <div class="text">Some technologies I use in my work. I like learning and discovering new things 🤓 🔧</div>
+    </div>
+
+    <div class="music-panel">
+        <div class="label">
+            <div class="music-icon">
+                <img id="music-icon" src="./images/daemons_label.jpg" />
+            </div>
+            <div class="main">
+                <div class="audio-title">
+                    <div class="title">Daemons</div>
+                    <div class="author">Imagine Dragons</div>
+                </div>
+               
+                <div class="progress">
+                    <div class="bar"></div>
+                </div>
+                <div class="audio-controls">
+                    <img id="previous-music" src="./icons/skip_previous.svg" />
+                    <img id="play-pause" src="./icons/play.svg" />
+                    <img id="next-music" src="./icons/skip_next.svg" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
