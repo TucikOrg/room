@@ -119,7 +119,7 @@ body
 
 @font-face {
     font-family: 'Roboto';
-    src: url('./static/fonts/Roboto-Regular.ttf') format('truetype');
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -150,49 +150,49 @@ body
 }
 
 .laptop-icon {
-    background-image: url('icons/laptop.svg');
+    background-image: url('../icons/laptop.svg');
     background-size: cover;
     width: 15px;
     height: 15px;
 }
 
 .book-icon {
-    background-image: url('icons/book.svg');
+    background-image: url('../icons/book.svg');
     background-size: cover;
     width: 15px;
     height: 15px;
 }
 
 .satisfie-icon {
-    background-image: url('icons/satisfie.svg');
+    background-image: url('../icons/satisfie.svg');
     background-size: cover;
     width: 15px;
     height: 15px;
 }
 
 .hot-chocolate-icon {
-    background-image: url('icons/hot-chocolate.svg');
+    background-image: url('../icons/hot-chocolate.svg');
     background-size: cover;
     width: 15px;
     height: 15px;
 }
 
 .leafe-icon {
-    background-image: url('icons/leafe.svg');
+    background-image: url('../icons/leafe.svg');
     background-size: cover;
     width: 15px;
     height: 15px;
 }
 
 .engineering-icon {
-    background-image: url('icons/engineering.svg');
+    background-image: url('../icons/engineering.svg');
     background-size: cover;
     width: 15px;
     height: 15px;
 }
 
 .laptop-icon path {
-    background-image: url('icons/laptop.svg');
+    background-image: url('../icons/laptop.svg');
     background-size: cover;
     width: 15px;
     height: 15px;

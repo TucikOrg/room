@@ -17,4 +17,5 @@ jobs:
           npm install
           npm run build
           ls
+          rm -rf /root/tucik/frontend/room/dist
           mv ./dist /root/tucik/frontend/room
