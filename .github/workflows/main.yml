@@ -19,3 +19,6 @@ jobs:
           ls
           rm -rf /root/tucik/frontend/room/dist
           mv ./dist /root/tucik/frontend/room
+      - name: Refresh
+        run: systemctl restart room-frontend
+
